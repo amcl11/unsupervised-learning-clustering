@@ -27,14 +27,18 @@ Analyzed if the optimal k-value changed post PCA.
 7. Cluster Cryptocurrencies Post PCA:
 Initialized, fitted, and predicted clusters using the K-Means model on the PCA data.
 Created another scatter plot using hvPlot to visualize the clusters after PCA.
-Key Questions Answered:
-What is the best value for k for the original and PCA data?
-What is the total explained variance of the three principal components in PCA?
-What is the impact of using fewer features to cluster data with K-Means?
-Conclusion:
+
+
+## Key Questions Answered:
+What is the best value for k for the original and PCA data? 4
+What is the total explained variance of the three principal components in PCA? 89%
+What is the impact of using fewer features to cluster data with K-Means? While there appears to be overlap between certain clusters in both sets of analysis (Original clusters 0, 2, 3)(PCA clusters 0 and 1), the PCA method using fewer features appears to show clearer / more distint clusters. These distinct clusters potentially reveal inherent structures in the data by reducing noise and focusing on the most significant patterns. 
+
+
+##Conclusion:
 This project successfully clustered cryptocurrencies based on their price change data. Through a combination of feature scaling, optimal cluster determination, and PCA, we were able to effectively group and visualize cryptocurrencies. The analysis provides insights into the behavior of cryptocurrencies and how they are affected by price changes over different periods.
 
-Tools and Libraries Used:
+##Tools and Libraries Used:
 Python
 pandas
 scikit-learn (StandardScaler, KMeans, PCA)
