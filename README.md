@@ -52,10 +52,10 @@ This project successfully clustered cryptocurrencies based on their price change
 
 **Tools and Libraries Used:**
 
-Python
-pandas
-scikit-learn
+-Python
+-pandas
+-scikit-learn
 StandardScaler
 KMeans
 PCA
-hvPlot
+-hvPlot
