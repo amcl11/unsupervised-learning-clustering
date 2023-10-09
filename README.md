@@ -1,7 +1,7 @@
 # Module 19 Challenge: CryptoClustering
 
 ## CryptoClustering: Unsupervised Learning for Cryptocurrency Analysis:
-This project uses unsupervised learning to determine if cryptocurrencies are influenced by 24-hour or 7-day price changes.
+This project uses unsupervised learning to compare clustering techniques using cryptocurrency data.
 
 Project Objective:
 To group cryptocurrencies based on their price change data using K-Means clustering and then visualize the results.
