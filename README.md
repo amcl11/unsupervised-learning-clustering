@@ -36,7 +36,7 @@ Initialized, fitted, and predicted clusters using the K-Means model on the PCA d
 Created another scatter plot using hvPlot to visualize the clusters after PCA.
 
 
-## Key Questions Answered:##
+## Key Questions Answered:
 What is the best value for k for the original and PCA data? **4**
 
 What is the total explained variance of the three principal components in PCA? **89%**
