@@ -45,10 +45,12 @@ What is the impact of using fewer features to cluster data with K-Means?
 While there appears to be overlap between certain clusters in both sets of analysis (Original clusters 0, 2, 3)(PCA clusters 0 and 1), the PCA method using fewer features appears to show clearer / more distint clusters. These distinct clusters potentially reveal inherent structures in the data by reducing noise and focusing on the most significant patterns. 
 
 
-##Conclusion:
+##Conclusion:**
+
 This project successfully clustered cryptocurrencies based on their price change data. Through a combination of feature scaling, optimal cluster determination, and PCA, we were able to effectively group and visualize cryptocurrencies. The analysis provides insights into the behavior of cryptocurrencies and how they are affected by price changes over different periods.
 
-##Tools and Libraries Used:
+##Tools and Libraries Used:**
+
 Python
 pandas
 scikit-learn (StandardScaler, KMeans, PCA)
