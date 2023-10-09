@@ -3,10 +3,11 @@
 ## CryptoClustering: Unsupervised Learning for Cryptocurrency Analysis:
 This project uses unsupervised learning to compare clustering techniques using cryptocurrency data.
 
-Project Objective:
+#Project Objective:
 To group cryptocurrencies based on their price change data using K-Means clustering and then visualize the results.
 
-Steps and Methodologies:
+#Steps and Methodologies:
+
 **1. Data Loading and Exploration:**
 Loaded the crypto_market_data.csv into a DataFrame.
 Explored the data using summary statistics and plots to understand its distribution.
