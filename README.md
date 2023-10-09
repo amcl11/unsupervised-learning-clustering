@@ -51,11 +51,11 @@ While there appears to be overlap between certain clusters in both sets of analy
 This project successfully clustered cryptocurrencies based on their price change data. Through a combination of feature scaling, optimal cluster determination, and PCA, we were able to effectively group and visualize cryptocurrencies. The analysis provides insights into the behavior of cryptocurrencies and how they are affected by price changes over different periods.
 
 **Tools and Libraries Used:**
+- Python
+- pandas
+- scikit-learn
+  - StandardScaler
+  - KMeans
+  - PCA
+- hvPlot
 
--Python
--pandas
--scikit-learn
-StandardScaler
-KMeans
-PCA
--hvPlot
