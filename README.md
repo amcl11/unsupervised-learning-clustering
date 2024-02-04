@@ -1,4 +1,4 @@
-# Module 19 Challenge: CryptoClustering
+# crypto-clustering
 
 ## CryptoClustering: Unsupervised Learning for Cryptocurrency Analysis:
 This project uses unsupervised learning to compare clustering techniques using cryptocurrency data.
