@@ -10,6 +10,8 @@ To group cryptocurrencies based on their price change data using K-Means cluster
 Loaded the crypto_market_data.csv into a DataFrame.
 Explored the data using summary statistics and plots to understand its distribution.
 
+![EDA](images/EDA.png)
+
 **2. Data Preparation:**
 Normalized the dataset using the StandardScaler from scikit-learn.
 Created a DataFrame with the scaled data, retaining the "coin_id" index from the original DataFrame.
@@ -18,10 +20,14 @@ Created a DataFrame with the scaled data, retaining the "coin_id" index from the
 Used the elbow method to find the best k-value for K-Means clustering on the scaled data.
 Initialized, fitted, and used the K-Means model to predict clusters based on the original scaled data.
 
-**4. Visualize Clusters using hvPlot:**
+![K-Means](images/elbow_curve.png)
+
+**4. Visualise Clusters using hvPlot:**
 A scatter plot was created using hvPlot to visualize clusters based on price change percentages.
 
-**5. Optimizing Clusters using PCA:**
+![Scatter Plot](images/scatter_plot.png)
+
+**5. Optimising Clusters using PCA:**
 Conducted a Principal Component Analysis (PCA) to reduce the features of the original scaled data to three main components.
 Created a DataFrame to hold the PCA data.
 
@@ -29,10 +35,13 @@ Created a DataFrame to hold the PCA data.
 Repeated the elbow method to identify the optimal k-value using the PCA data.
 Analyzed if the optimal k-value changed post PCA.
 
+![PCA K-Means](images/elbow_curve_PCA_data.png)
+
 **7. Cluster Cryptocurrencies Post PCA:**
 Initialized, fitted, and predicted clusters using the K-Means model on the PCA data.
 Created another scatter plot using hvPlot to visualize the clusters after PCA.
 
+![PCA_CLusters](images/PCA_scatter_plot.png)
 
 ## Key Questions Answered:
 What is the best value for k for the original and PCA data? **4**
