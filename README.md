@@ -1,8 +1,8 @@
 # Unsupervised Learning for Cryptocurrency Analysis:
-This project uses unsupervised learning to compare clustering techniques using cryptocurrency data.
+Using unsupervised learning to compare clustering techniques using cryptocurrency data.
 
-**Project Objective:**
-To group cryptocurrencies based on their price change data using K-Means clustering and then visualize the results.
+**Objective:**
+To group cryptocurrencies based on their price change data using K-Means clustering and then visualise the results.
 
 **Steps and Methodologies:**
 
@@ -46,7 +46,7 @@ While there appears to be overlap between certain clusters in both sets of analy
 
 **Conclusion:**
 
-This project successfully clustered cryptocurrencies based on their price change data. Through a combination of feature scaling, optimal cluster determination, and PCA, we were able to effectively group and visualize cryptocurrencies. The analysis provides insights into the behavior of cryptocurrencies and how they are affected by price changes over different periods.
+This project successfully clustered cryptocurrencies based on their price change data. Through a combination of feature scaling, optimal cluster determination, and PCA, we were able to effectively group and visualise cryptocurrencies. The analysis provides insights into the behavior of cryptocurrencies and how they are affected by price changes over different periods.
 
 **Tools and Libraries Used:**
 - Python
