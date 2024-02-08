@@ -1,6 +1,4 @@
-# crypto-clustering
-
-## CryptoClustering: Unsupervised Learning for Cryptocurrency Analysis:
+# Unsupervised Learning for Cryptocurrency Analysis:
 This project uses unsupervised learning to compare clustering techniques using cryptocurrency data.
 
 **Project Objective:**
